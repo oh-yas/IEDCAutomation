@@ -49,12 +49,6 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "ExtractAllMembers.xaml",
-      "uniqueId": "4a822da9-fba8-47b6-a0c6-31d78666497c",
-      "input": [],
-      "output": []
-    },
-    {
       "filePath": "ExtractAllMembersByState.xaml",
       "uniqueId": "bd713d55-54c7-4a5d-b892-63180e0f554d",
       "input": [],
