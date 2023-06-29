@@ -2,7 +2,7 @@
   <x:Members>
     <x:Property Name="in_dt_Members" Type="InArgument(sd:DataTable)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1355,6723</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1279,4012</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -127,7 +127,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1365,6658" sap2010:WorkflowViewState.IdRef="Sequence_12">
+  <Sequence sap:VirtualizedContainerService.HintSize="1289,3947" sap2010:WorkflowViewState.IdRef="Sequence_12">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ContactInfoString" />
       <Variable x:TypeArguments="x:Boolean" Name="FileExists" />
@@ -137,7 +137,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Add Data Columns" sap:VirtualizedContainerService.HintSize="1303,81" sap2010:WorkflowViewState.IdRef="Sequence_22">
+    <Sequence DisplayName="Add Data Columns" sap:VirtualizedContainerService.HintSize="1227,81" sap2010:WorkflowViewState.IdRef="Sequence_22">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -146,18 +146,18 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:RemoveDataColumn Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="Hidden" DataTable="[in_dt_Members]" DisplayName="Remove Hidden Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_2" />
       <ui:RemoveDataColumn Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="Hidden1" DataTable="[in_dt_Members]" DisplayName="Remove Hidden1 Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_3" />
-      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" ColumnName="Address" DataTable="[in_dt_Members]" DefaultValue="{x:Null}" DisplayName="Add Address Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" MaxLength="{x:Null}" Unique="{x:Null}" />
-      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" ColumnName="Phone Number" DataTable="[in_dt_Members]" DefaultValue="{x:Null}" DisplayName="Add Phone Number Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" MaxLength="{x:Null}" Unique="{x:Null}" />
-      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" ColumnName="Email" DataTable="[in_dt_Members]" DefaultValue="{x:Null}" DisplayName="Add Email Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_3" MaxLength="{x:Null}" Unique="{x:Null}" />
-      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" ColumnName="Website" DataTable="[in_dt_Members]" DefaultValue="{x:Null}" DisplayName="Add Website Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_4" MaxLength="{x:Null}" Unique="{x:Null}" />
+      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Address" DataTable="[in_dt_Members]" DisplayName="Add Address Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
+      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Phone Number" DataTable="[in_dt_Members]" DisplayName="Add Phone Number Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
+      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Email" DataTable="[in_dt_Members]" DisplayName="Add Email Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_3" />
+      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Website" DataTable="[in_dt_Members]" DisplayName="Add Website Column" sap:VirtualizedContainerService.HintSize="388,186" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_4" />
     </Sequence>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Extract Information from Each Member Profile" sap:VirtualizedContainerService.HintSize="1303,4335" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OpenMode="IfNotOpen" OutUiElement="{x:Null}" ScopeGuid="17261c4e-91bd-4658-ae59-80686f2f9b9f" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Extract Information from Each Member Profile" sap:VirtualizedContainerService.HintSize="1227,3397" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="17261c4e-91bd-4658-ae59-80686f2f9b9f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1269,4118" sap2010:WorkflowViewState.IdRef="Sequence_20">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1193,3180" sap2010:WorkflowViewState.IdRef="Sequence_20">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="MemberEmail" />
               <Variable x:TypeArguments="x:String" Name="MemberAddress" />
@@ -170,13 +170,13 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[in_dt_Members]" DisplayName="For Each Member in Data Table" sap:VirtualizedContainerService.HintSize="1207,3880" sap2010:WorkflowViewState.IdRef="ForEachRow_4" MaxIterations="{x:Null}" Values="{x:Null}">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[in_dt_Members]" DisplayName="For Each Member in Data Table" sap:VirtualizedContainerService.HintSize="1131,2943" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Member" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1173,3763" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1097,2826" sap2010:WorkflowViewState.IdRef="Sequence_21">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="testaddress" />
                       <Variable x:TypeArguments="x:String" Name="MemberPhoneNumber" />
@@ -187,13 +187,13 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NGoToUrl ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="1111,82" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Timeout="{x:Null}" Url="[Member(&quot;Name Url&quot;).ToString]" Version="V3" />
-                    <uix:NCheckElement ContinueOnError="True" DelayBefore="0" DisplayName="Check Element 'Profile'" sap:VirtualizedContainerService.HintSize="1111,157" sap2010:WorkflowViewState.IdRef="NCheckElement_1" Result="[CurrProfile]" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" Timeout="0.5" Version="V3">
+                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="1035,82" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="[Member(&quot;Name Url&quot;).ToString]" Version="V3" />
+                    <uix:NCheckElement ContinueOnError="True" DelayBefore="0" DisplayName="Check it is not the user's profile" sap:VirtualizedContainerService.HintSize="1035,157" sap2010:WorkflowViewState.IdRef="NCheckElement_1" Result="[CurrProfile]" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" Timeout="0.5" Version="V3">
                       <uix:NCheckElement.Target>
                         <uix:TargetAnchorable BrowserURL="https://members.iedconline.org/Members2020/Profile/DirectoryProfile.aspx?ID=214674&amp;WebsiteKey=560e12fb-22a5-418e-92d7-d7a2d6b9bd3b" DesignTimeRectangle="812, 267, 61, 27" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Profile'" FullSelectorArgument="&lt;webctrl tag='H2' aaname='Profile' parentid='ctl01_TemplateBody_WebPartManager1_gwpciContactProfile_ciContactProfile__Head' /&gt;" FuzzyAccuracy="0.77" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='Profile' parentid='ctl01_TemplateBody_WebPartManager1_gwpciContactProfile_ciContactProfile__Head' type='' class='panel-title' check:text='Profile' /&gt;" Guid="e379f439-548d-4f7d-a719-d3c2552af0fe" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEEAAAAfCAYAAAC4c6DCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK4SURBVGhD5ZYxaxsxFMfzVQz5Aln6AerNk7MaQgeDh3QJuJApS3GWYgiBQKAYQyGenGBCKbhDQpfGw4EDN5gstgulGIKxicGcTYZ/n+4kneQody1VTake/LD0pJN0f+u9dxsbmy/gPEanaxidrmF0uobR6RpGp2sYna5hdLqG1jn0MEWCLWYY+deo7OX1RWyz/Q4Nf4zpgu+LIWrkr/V5FzNcHfK558Onvt9F66SJIGxBhyopz1llF41vfB9miyWC+R1OaGztIkw7x/rEzR0UP/ixSL0mMtq4JbJtDPgWwW1d26N42kajxWii/Ir71ytCRLUXjePBQ9kw/scoZ+idG8ZX+RdEKFyNo/7jHaqlM3zqz6K+eiiK8VpnqMQ42cMY3c91FLJi7UuIpdMtyhHhcwki5I6u0Zss+TgZ5bTelzPklDkhWidRhDwKdUM4yEOMMbrnTYpjeagSvZz68o/8V9g9iRkK0UR3TvGvzg3zgYJ8Nl2EHPkDPiLWERb0L3UhZIOhiJBoamKUhyAjf0NWjjwy2TzdHLH5DDf1Ax7jlF9a8SE1wRPCodwRtyxFhP2vGHEvW1vklcwe5ZtQyCW67/lchmww0kQIS2Qbr7eVZxQRBh93Yz8jG1/xwDvVx6gKXHzng2p+sSCCnDf3URHzOJXb6E9hSVf61QnJ4fAMpn9CkPBCDONLWRAhLqUJRiEh15YNxv8mwsRD5c0BCiZKO/HassGwLYISDk/XU8JBvbYWRNDmyeqTgNaxLQIlxxNZ92j8SKhPlWZNiTHot1FUctjWfh0XvoeqKo5sMKyLQKyWSFau1DIpSyTHhggkcpm+X2SJZLay76BVlOv+fREYv/SxxLEiQsTW2za6o5n28sHkB25ax3j57E1wFaPTNYxO1zA6XcPodA2j0zWMTtcwOl2Df0M4bMBPuQMqeCGw254AAAAASUVORK5CYII=" InformativeScreenshot="ef8aa85a0f828e663756a0293a48b41e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Directory Profile - *' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                       </uix:NCheckElement.Target>
                     </uix:NCheckElement>
-                    <If Condition="[CurrProfile]" sap:VirtualizedContainerService.HintSize="1111,295" sap2010:WorkflowViewState.IdRef="If_3">
+                    <If Condition="[CurrProfile]" sap:VirtualizedContainerService.HintSize="1035,182" sap2010:WorkflowViewState.IdRef="If_3">
                       <If.Then>
                         <Sequence sap:VirtualizedContainerService.HintSize="300,80" sap2010:WorkflowViewState.IdRef="Sequence_31">
                           <sap:WorkflowViewStateService.ViewState>
@@ -214,20 +214,20 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Address'" Exists="{x:Null}" sap:VirtualizedContainerService.HintSize="1111,2364" sap2010:WorkflowViewState.IdRef="NCheckState_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" Timeout="0.5" Version="V3">
+                    <uix:NCheckState DisplayName="Check if Contact Info Exists" sap:VirtualizedContainerService.HintSize="1035,1540" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" Timeout="0.5" Version="V3">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="572,2147" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="496,1323" sap2010:WorkflowViewState.IdRef="Sequence_28">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="visibleinnertext" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Attribute 'Address PO'" sap:VirtualizedContainerService.HintSize="510,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_2" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="[testaddress]" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" Timeout="{x:Null}" Version="V3">
+                          <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="visibleinnertext" DisplayName="Extract Address" sap:VirtualizedContainerService.HintSize="434,207" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_2" Result="[testaddress]" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" Version="V3">
                             <uix:NGetAttributeGeneric.Target>
                               <uix:TargetAnchorable BrowserURL="https://members.iedconline.org/Members2020/Profile/DirectoryProfile.aspx?ID=145893&amp;WebsiteKey=560e12fb-22a5-418e-92d7-d7a2d6b9bd3b" DesignTimeRectangle="148, 601, 295, 77" DesignTimeScaleFactor="1" FriendlyName="'Address PO'" FullSelectorArgument="&lt;webctrl tag='DIV' class='ReadOnly PanelField Top' parentid='ctl01_TemplateBody_WebPartManager1_gwpciNewContactAddress_ciNewContactAddress__divAddress' /&gt;" FuzzyAccuracy="0.8" FuzzySelectorArgument="&lt;webctrl tag='DIV' class='ReadOnly PanelField Top' parentid='ctl01_TemplateBody_WebPartManager1_gwpciNewContactAddress_ciNewContactAddress__divAddress' type='' check:text='Address&amp;#xD;&amp;#xA;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#xD;&amp;#xA;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;PO Box 134022251 Palmer StreetRobertsdale, AL 36567-1340' /&gt;" Guid="788aa7f8-0548-4ee1-a77b-2d16d43f4a68" ImageBase64="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" InformativeScreenshot="6624f3dc20d3c541cebf7f56c83a2efd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Directory Profile -*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                             </uix:NGetAttributeGeneric.Target>
                           </uix:NGetAttributeGeneric>
-                          <Assign sap:VirtualizedContainerService.HintSize="510,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+                          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">[MemberAddress]</OutArgument>
                             </Assign.To>
@@ -235,30 +235,8 @@
                               <InArgument x:TypeArguments="x:String" xml:space="preserve">[testaddress.Replace("\n", " ").Replace("Address", "").Replace("  ", "").Replace(VbCrLf, "").Trim().Replace("\n", " ")]</InArgument>
                             </Assign.Value>
                           </Assign>
-                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="510,90" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="[&quot;Attribute address is&quot; + testaddress]" TextWriter="{x:Null}" />
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="510,348" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-                            <ui:CommentOut.Body>
-                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,269" sap2010:WorkflowViewState.IdRef="Sequence_30">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                                <uix:NGetText DisplayName="Retrieve Address" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" TextString="[MemberAddress]" Version="V3">
-                                  <uix:NGetText.Target>
-                                    <uix:TargetAnchorable BrowserURL="https://members.iedconline.org/Members2020/Profile/DirectoryProfile.aspx?ID=331672&amp;WebsiteKey=560e12fb-22a5-418e-92d7-d7a2d6b9bd3b" DesignTimeRectangle="426, 695, 295, 32" DesignTimeScaleFactor="1" FriendlyName="'1900 First'" FullSelectorArgument="&lt;webctrl class='PanelFieldValue' tag='DIV' parentclass='ReadOnly PanelField Top' parentid='ctl01_TemplateBody_WebPartManager1_gwpciNewContactAddress_ciNewContactAddress__divAddress' /&gt;" FuzzyAccuracy="0.7" FuzzySelectorArgument="&lt;webctrl class='PanelFieldValue' tag='DIV' parentclass='ReadOnly PanelField Top' parentid='ctl01_TemplateBody_WebPartManager1_gwpciNewContactAddress_ciNewContactAddress__divAddress' type='' /&gt;" Guid="d770e94c-2d2b-456e-9a34-b1be552ef1a3" InformativeScreenshot="999ce020244784231b20c72f22ee28fb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Directory Profile -*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
-                                      <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                          <uix:Target CvTextArgument="Address" CvType="Text" DesignTimeRectangle="419, 679, 65, 16" ElementType="Text" FriendlyName="'Address'" FullSelectorArgument="&lt;webctrl aaname='Address' class='Label' tag='SPAN' innertext='Address' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Address' class='Label' tag='SPAN' innertext='Address' type='' check:text='Address' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAUCAYAAADbX/B7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS0SURBVFhH7ZbvZ+RaGMfvHxeuUKHCMpZROsON0hk61h21o2pKU3bKzL64KZ2hozbqSq2UmaXCmkuFih1hOGqjNkr/i+99Tk6SSXKz29k398W98+LLTJ7z5Dzn8/w4+eX5+Rlr5bWGUqI1lBKtoZToJ6GE8C4akCQJ0qsupqxsTVEh3LMa+ajQPwUldqHA6aFC7629nyEssf+b+jkogQtjm4BwKJKC9p/+Cgf4j0MJbkXgAooEuTmG91i2NkSw8OEvwuj396CED7RmziIIP4TyFIAtgtzzMGDC9ymzLmf34Xk+WMBjKNifQrC5B8+nd5b4rw7licE+VKMK6XywYfzGwdRg/FU4qD/FYEdegttuo9Pkfhkojx6s42q6RtrU0H6rQU6gEATnXYVsMrT9NmobcQJCguea6NaVpS/Fox1b8II4BuZguM99E7uE6sEY7gO3U/tf96ApS5ukNDCY5Ct+ZSjh3EKbv6yi0ywJ4F22okNU3jkIEtqPLoa7Aoi81YZ+2kO3mQQYQ+EH7vPK4QHV0DnpQScgarSmCEU8U3c70M+nYARcf03PZPLrGxieG+jtC7i1PsXxjWF6LPwqzS4GZ0MYpx1UN9So1YP7MRqy2Ld9MoBxNoC+q0KuDzCLoAmtCGU5YKv9GQJ6FvoEaZM2ULuwF2JdcKtHLaC8ybZVgFmfBx5D8W10uN+rDuz5srTZpBuByUOhqkznFrXhiMegonvDUr/n0Ie1T5Wz2YFF7WLuUVKUNqz03dTKcwJCiUtaNDlDZH+kNvPzLbYaFD5g6zxrGoZu/AJqp+kRbwsZrSseOAV9rkX/eVaW/vmZkgSmHlHmM/2cmykplCqMu2Q/OvzvogrV7QYazUQaahyyVEHPYVHyeAVH1bLTRm9kw2XxO1hcadyuVNE6HMC8pdgLc2UlKDzgarSRguoOBbIrVKvEG+wMqTLo8H/ww1N2P2YyWYRC1cQrItd28R4/hBJ6GDfFfmo9CyXWXhdjPt/I1/tkwjhqpC0pyRoMR8yzcDGDNeqhvbWce+qBBZ/mVRLLy1DSiog3KFUVg890G1zFc+YkWwV5KKE7RI371A3MkuFIerlSkjgK7RPZwjTb4QNDkByQbqDZh270XuXABvtGt05SNRQXu6dLIZqBdGEk+5BehJLOjo0WzMwMEKJ58V4MzcoxgfBMMYz5rXEyhu04mF7q0Oj2SKCIYcz/U4b2ejAnDpybIbrx9893oZDSilVbMCYeWEjz4t6CXlfROKM58ZWq6U0FtbfUFhMXPvPgXHQiKNVTB19udNReN6CPLDgeJfHORo/flIWzvQCFBmx8y6iHRLrQe1w889qvFCgNOpsGFrs10IggJJKhZKFwn7kNPf0IFJI3RTnnoeQzyOPxJ3Sl8hsk48tvI/3aQ0hDd9oXV3vOvqVHsQV3JjrJTEmloDUioJmzvVgpwdyFe+fCeyhWSSz+IXTP13jw43YIFy6mH02Y1w48KteQMpa1R6KpP5tYMK9szDxqK/6xxfeJPvhoX1/4sJKPw5C5VF3ke2nCokrje2TtAbWFdTHEkOy24y3biYvvS7GNR2OKbwq3cPNwrTRo/29aQynRGkqJ1lD+oWf8DbsVCmAa/yrfAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector" />
-                                        </scg:List>
-                                      </uix:TargetAnchorable.Anchors>
-                                    </uix:TargetAnchorable>
-                                  </uix:NGetText.Target>
-                                </uix:NGetText>
-                              </Sequence>
-                            </ui:CommentOut.Body>
-                          </ui:CommentOut>
-                          <uix:NGetText ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Retrieve Contact Information" sap:VirtualizedContainerService.HintSize="510,158" sap2010:WorkflowViewState.IdRef="NGetText_6" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" ScrapingOptions="{x:Null}" TextString="[ContactInfoString]" Timeout="{x:Null}" Version="V3" WordsInfo="{x:Null}">
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="[&quot;Attribute address is&quot; + testaddress]" />
+                          <uix:NGetText DisplayName="Retrieve Contact Information" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" TextString="[ContactInfoString]" Version="V3">
                             <uix:NGetText.Target>
                               <uix:TargetAnchorable BrowserURL="https://members.iedconline.org/Members2020/Profile/DirectoryProfile.aspx?ID=181084&amp;WebsiteKey=560e12fb-22a5-418e-92d7-d7a2d6b9bd3b" DesignTimeRectangle="416, 560, 315, 154" DesignTimeScaleFactor="1" FriendlyName="'Address 103'" FullSelectorArgument="&lt;webctrl class='panel-body' css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl class='panel-body' css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" Guid="b6919cef-f513-4274-b101-287a0cf0e9a4" ImageBase64="" InformativeScreenshot="1a6071e2afc1b17ff95052975317b67f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Directory Profile -*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -269,11 +247,11 @@
                               </uix:TargetAnchorable>
                             </uix:NGetText.Target>
                           </uix:NGetText>
-                          <ui:Matches BuilderPattern="([0-9]( |-|.)?)?(\(?[0-9]{3}\)?|[0-9]{3})( |-|.)?([0-9]{3}( |-|.)?[0-9]{4}|[a-zA-Z0-9]{7})" DisplayName="Match Member Phone Number" FirstMatch="[MemberPhoneNumber]" sap:VirtualizedContainerService.HintSize="510,60" sap2010:WorkflowViewState.IdRef="Matches_5" Input="[ContactInfoString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;([0-9]( |-|.)?)?(\\(?[0-9]{3}\\)?|[0-9]{3})( |-|.)?([0-9]{3}( |-|.)?[0-9]{4}|[a-zA-Z0-9]{7})&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="([0-9]( |-|.)?)?(\(?[0-9]{3}\)?|[0-9]{3})( |-|.)?([0-9]{3}( |-|.)?[0-9]{4}|[a-zA-Z0-9]{7})" RegexOption="IgnoreCase, Compiled" Result="[PhoneNumbers]" />
-                          <ui:Matches BuilderPattern="((?&gt;[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+\x20*|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;\x20*)*(?&lt;angle&gt;&lt;))?((?!\.)(?&gt;\.?[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+)+|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;)@(((?!-)[a-zA-Z\d\-]+(?&lt;!-)\.)+[a-zA-Z]{2,}|\[(((?(?&lt;!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)&gt;)" DisplayName="Match Member Email" FirstMatch="[MemberEmail]" sap:VirtualizedContainerService.HintSize="388,60" sap2010:WorkflowViewState.IdRef="Matches_6" Input="[ContactInfoString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;EMAIL&quot;,&quot;OperationName&quot;:&quot;Email&quot;,&quot;OperationValue&quot;:&quot;((?&gt;[a-zA-Z\\d!#$%&amp;'*+\\-\\\/=?^_`{|}~]+\\x20*|\&quot;((?=[\\x01-\\x7f])[^\&quot;\\\\]|\\\\[\\x01-\\x7f])*\&quot;\\x20*)*(?&lt;angle&gt;&lt;))?((?!\\.)(?&gt;\\.?[a-zA-Z\\d!#$%&amp;'*+\\-\\\/=?^_`{|}~]+)+|\&quot;((?=[\\x01-\\x7f])[^\&quot;\\\\]|\\\\[\\x01-\\x7f])*\&quot;)@(((?!-)[a-zA-Z\\d\\-]+(?&lt;!-)\\.)+[a-zA-Z]{2,}|\\[(((?(?&lt;!\\[)\\.)(25[0-5]|2[0-4]\\d|[01]?\\d?\\d)){4}|[a-zA-Z\\d\\-]*[a-zA-Z\\d]:((?=[\\x01-\\x7f])[^\\\\\\[\\]]|\\\\[\\x01-\\x7f])+)\\])(?(angle)&gt;)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="((?&gt;[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+\x20*|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;\x20*)*(?&lt;angle&gt;&lt;))?((?!\.)(?&gt;\.?[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+)+|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;)@(((?!-)[a-zA-Z\d\-]+(?&lt;!-)\.)+[a-zA-Z]{2,}|\[(((?(?&lt;!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)&gt;)" RegexOption="IgnoreCase, Compiled" Result="{x:Null}" />
-                          <WriteLine DisplayName="Log Address" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="[&quot;Current member address: &quot; + MemberAddress]" TextWriter="{x:Null}" />
-                          <WriteLine DisplayName="Log Email" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="[&quot;Current member email: &quot; + MemberEmail]" TextWriter="{x:Null}" />
-                          <If Condition="[MemberPhoneNumber isNot Nothing]" DisplayName="Error Checking Phone Number" sap:VirtualizedContainerService.HintSize="510,485" sap2010:WorkflowViewState.IdRef="If_1">
+                          <ui:Matches BuilderPattern="([0-9]( |-|.)?)?(\(?[0-9]{3}\)?|[0-9]{3})( |-|.)?([0-9]{3}( |-|.)?[0-9]{4}|[a-zA-Z0-9]{7})" DisplayName="Match Member Phone Number" FirstMatch="[MemberPhoneNumber]" sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Matches_5" Input="[ContactInfoString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;([0-9]( |-|.)?)?(\\(?[0-9]{3}\\)?|[0-9]{3})( |-|.)?([0-9]{3}( |-|.)?[0-9]{4}|[a-zA-Z0-9]{7})&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="([0-9]( |-|.)?)?(\(?[0-9]{3}\)?|[0-9]{3})( |-|.)?([0-9]{3}( |-|.)?[0-9]{4}|[a-zA-Z0-9]{7})" RegexOption="IgnoreCase, Compiled" Result="[PhoneNumbers]" />
+                          <ui:Matches BuilderPattern="((?&gt;[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+\x20*|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;\x20*)*(?&lt;angle&gt;&lt;))?((?!\.)(?&gt;\.?[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+)+|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;)@(((?!-)[a-zA-Z\d\-]+(?&lt;!-)\.)+[a-zA-Z]{2,}|\[(((?(?&lt;!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)&gt;)" DisplayName="Match Member Email" FirstMatch="[MemberEmail]" sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Matches_6" Input="[ContactInfoString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;EMAIL&quot;,&quot;OperationName&quot;:&quot;Email&quot;,&quot;OperationValue&quot;:&quot;((?&gt;[a-zA-Z\\d!#$%&amp;'*+\\-\\\/=?^_`{|}~]+\\x20*|\&quot;((?=[\\x01-\\x7f])[^\&quot;\\\\]|\\\\[\\x01-\\x7f])*\&quot;\\x20*)*(?&lt;angle&gt;&lt;))?((?!\\.)(?&gt;\\.?[a-zA-Z\\d!#$%&amp;'*+\\-\\\/=?^_`{|}~]+)+|\&quot;((?=[\\x01-\\x7f])[^\&quot;\\\\]|\\\\[\\x01-\\x7f])*\&quot;)@(((?!-)[a-zA-Z\\d\\-]+(?&lt;!-)\\.)+[a-zA-Z]{2,}|\\[(((?(?&lt;!\\[)\\.)(25[0-5]|2[0-4]\\d|[01]?\\d?\\d)){4}|[a-zA-Z\\d\\-]*[a-zA-Z\\d]:((?=[\\x01-\\x7f])[^\\\\\\[\\]]|\\\\[\\x01-\\x7f])+)\\])(?(angle)&gt;)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="((?&gt;[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+\x20*|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;\x20*)*(?&lt;angle&gt;&lt;))?((?!\.)(?&gt;\.?[a-zA-Z\d!#$%&amp;'*+\-\/=?^_`{|}~]+)+|&quot;((?=[\x01-\x7f])[^&quot;\\]|\\[\x01-\x7f])*&quot;)@(((?!-)[a-zA-Z\d\-]+(?&lt;!-)\.)+[a-zA-Z]{2,}|\[(((?(?&lt;!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)&gt;)" RegexOption="IgnoreCase, Compiled" />
+                          <WriteLine DisplayName="Log Address" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="[&quot;Current member address: &quot; + MemberAddress]" />
+                          <WriteLine DisplayName="Log Email" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="[&quot;Current member email: &quot; + MemberEmail]" />
+                          <If Condition="[MemberPhoneNumber isNot Nothing]" DisplayName="Error Checking Phone Number" sap:VirtualizedContainerService.HintSize="434,52" sap2010:WorkflowViewState.IdRef="If_1">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -287,7 +265,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <WriteLine DisplayName="Log Phone Number" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="[&quot;Current member phonenumber: &quot; + PhoneNumbers.Last.ToString]" TextWriter="{x:Null}" />
+                                <WriteLine DisplayName="Log Phone Number" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="[&quot;Current member phonenumber: &quot; + PhoneNumbers.Last.ToString]" />
                                 <Assign sap:VirtualizedContainerService.HintSize="434,83" sap2010:WorkflowViewState.IdRef="Assign_1">
                                   <Assign.To>
                                     <OutArgument x:TypeArguments="x:Object">[Member("Phone Number")]</OutArgument>
@@ -311,7 +289,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="423,225" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                          <ui:MultipleAssign DisplayName="Set attributes to null" sap:VirtualizedContainerService.HintSize="423,225" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
                             <ui:MultipleAssign.AssignOperations>
                               <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
                                 <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
@@ -363,7 +341,7 @@
                         <uix:TargetAnchorable BrowserURL="https://members.iedconline.org/Members2020/Profile/DirectoryProfile.aspx?ID=281918&amp;WebsiteKey=560e12fb-22a5-418e-92d7-d7a2d6b9bd3b" CvTextArgument="Address" CvType="Text" DesignTimeRectangle="419, 577, 65, 16" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Address'" FullSelectorArgument="&lt;webctrl aaname='Address' class='Label' tag='SPAN' innertext='Address' parentid='ctl01_TemplateBody_WebPartManager1_gwpciNewContactAddress_ciNewContactAddress__divAddress' /&gt;" FuzzyAccuracy="0.77" FuzzySelectorArgument="&lt;webctrl aaname='Address' class='Label' tag='SPAN' innertext='Address' parentid='ctl01_TemplateBody_WebPartManager1_gwpciNewContactAddress_ciNewContactAddress__divAddress' type='' check:text='Address' /&gt;" Guid="4894c438-8aa1-4e9f-9899-5ea98e96b69f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAUCAYAAADbX/B7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS0SURBVFhH7ZbvZ+RaGMfvHxeuUKHCMpZROsON0hk61h21o2pKU3bKzL64KZ2hozbqSq2UmaXCmkuFih1hOGqjNkr/i+99Tk6SSXKz29k398W98+LLTJ7z5Dzn8/w4+eX5+Rlr5bWGUqI1lBKtoZToJ6GE8C4akCQJ0qsupqxsTVEh3LMa+ajQPwUldqHA6aFC7629nyEssf+b+jkogQtjm4BwKJKC9p/+Cgf4j0MJbkXgAooEuTmG91i2NkSw8OEvwuj396CED7RmziIIP4TyFIAtgtzzMGDC9ymzLmf34Xk+WMBjKNifQrC5B8+nd5b4rw7licE+VKMK6XywYfzGwdRg/FU4qD/FYEdegttuo9Pkfhkojx6s42q6RtrU0H6rQU6gEATnXYVsMrT9NmobcQJCguea6NaVpS/Fox1b8II4BuZguM99E7uE6sEY7gO3U/tf96ApS5ukNDCY5Ct+ZSjh3EKbv6yi0ywJ4F22okNU3jkIEtqPLoa7Aoi81YZ+2kO3mQQYQ+EH7vPK4QHV0DnpQScgarSmCEU8U3c70M+nYARcf03PZPLrGxieG+jtC7i1PsXxjWF6LPwqzS4GZ0MYpx1UN9So1YP7MRqy2Ld9MoBxNoC+q0KuDzCLoAmtCGU5YKv9GQJ6FvoEaZM2ULuwF2JdcKtHLaC8ybZVgFmfBx5D8W10uN+rDuz5srTZpBuByUOhqkznFrXhiMegonvDUr/n0Ie1T5Wz2YFF7WLuUVKUNqz03dTKcwJCiUtaNDlDZH+kNvPzLbYaFD5g6zxrGoZu/AJqp+kRbwsZrSseOAV9rkX/eVaW/vmZkgSmHlHmM/2cmykplCqMu2Q/OvzvogrV7QYazUQaahyyVEHPYVHyeAVH1bLTRm9kw2XxO1hcadyuVNE6HMC8pdgLc2UlKDzgarSRguoOBbIrVKvEG+wMqTLo8H/ww1N2P2YyWYRC1cQrItd28R4/hBJ6GDfFfmo9CyXWXhdjPt/I1/tkwjhqpC0pyRoMR8yzcDGDNeqhvbWce+qBBZ/mVRLLy1DSiog3KFUVg890G1zFc+YkWwV5KKE7RI371A3MkuFIerlSkjgK7RPZwjTb4QNDkByQbqDZh270XuXABvtGt05SNRQXu6dLIZqBdGEk+5BehJLOjo0WzMwMEKJ58V4MzcoxgfBMMYz5rXEyhu04mF7q0Oj2SKCIYcz/U4b2ejAnDpybIbrx9893oZDSilVbMCYeWEjz4t6CXlfROKM58ZWq6U0FtbfUFhMXPvPgXHQiKNVTB19udNReN6CPLDgeJfHORo/flIWzvQCFBmx8y6iHRLrQe1w889qvFCgNOpsGFrs10IggJJKhZKFwn7kNPf0IFJI3RTnnoeQzyOPxJ3Sl8hsk48tvI/3aQ0hDd9oXV3vOvqVHsQV3JjrJTEmloDUioJmzvVgpwdyFe+fCeyhWSSz+IXTP13jw43YIFy6mH02Y1w48KteQMpa1R6KpP5tYMK9szDxqK/6xxfeJPvhoX1/4sJKPw5C5VF3ke2nCokrje2TtAbWFdTHEkOy24y3biYvvS7GNR2OKbwq3cPNwrTRo/29aQynRGkqJ1lD+oWf8DbsVCmAa/yrfAAAAAElFTkSuQmCC" InformativeScreenshot="3d113767fc7fd511c4d79e4d0ef727e1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Directory Profile -*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
-                    <uix:NGetText ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Text 'Profile'" sap:VirtualizedContainerService.HintSize="989,158" sap2010:WorkflowViewState.IdRef="NGetText_7" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" ScrapingOptions="{x:Null}" TextString="[WebsiteString]" Timeout="{x:Null}" Version="V3" WordsInfo="{x:Null}">
+                    <uix:NGetText DisplayName="Get Text 'Profile'" sap:VirtualizedContainerService.HintSize="1035,157" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="17261c4e-91bd-4658-ae59-80686f2f9b9f" TextString="[WebsiteString]" Version="V3">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://members.iedconline.org/Members2020/Profile/DirectoryProfile.aspx?ID=314754&amp;WebsiteKey=560e12fb-22a5-418e-92d7-d7a2d6b9bd3b" DesignTimeRectangle="802, 295, 701, 135" DesignTimeScaleFactor="1" FriendlyName="'text text'" FullSelectorArgument="&lt;webctrl class='panel-body' tag='DIV' parentclass='panel-body-container' id='ctl01_TemplateBody_WebPartManager1_gwpciContactProfile_ciContactProfile__Body' /&gt;" FuzzySelectorArgument="&lt;webctrl class='panel-body' tag='DIV' parentclass='panel-body-container' id='ctl01_TemplateBody_WebPartManager1_gwpciContactProfile_ciContactProfile__Body' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;   &amp;#x9;&amp;#x9;' /&gt;" Guid="25891479-d489-4ece-9942-81c239aca99b" InformativeScreenshot="336d7736afbd2337a7f9ca5b86d3cd19.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Directory Profile -*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -374,9 +352,9 @@
                         </uix:TargetAnchorable>
                       </uix:NGetText.Target>
                     </uix:NGetText>
-                    <ui:Matches BuilderPattern="(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.])*(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[a-zA-Z0-9+&amp;@#\/%=~_|$])" DisplayName="Find Matching Patterns" FirstMatch="[MemberWebsite]" sap:VirtualizedContainerService.HintSize="989,60" sap2010:WorkflowViewState.IdRef="Matches_7" Input="[WebsiteString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;URL&quot;,&quot;OperationName&quot;:&quot;URL&quot;,&quot;OperationValue&quot;:&quot;(?:(?:https?|ftp|file):\\\/\\\/|www\\.|ftp\\.)(?:\\([-a-zA-Z0-9+&amp;@#\\\/%=~_|$?!:,.]*\\)|[-a-zA-Z0-9+&amp;@#\\\/%=~_|$?!:,.])*(?:\\([-a-zA-Z0-9+&amp;@#\\\/%=~_|$?!:,.]*\\)|[a-zA-Z0-9+&amp;@#\\\/%=~_|$])&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.])*(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[a-zA-Z0-9+&amp;@#\/%=~_|$])" RegexOption="IgnoreCase, Compiled" Result="{x:Null}" />
-                    <WriteLine DisplayName="Log Website" sap:VirtualizedContainerService.HintSize="989,91" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="[&quot;Current member website: &quot; + MemberWebsite]" TextWriter="{x:Null}" />
-                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="989,163" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                    <ui:Matches BuilderPattern="(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.])*(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[a-zA-Z0-9+&amp;@#\/%=~_|$])" DisplayName="Extract Website URL" FirstMatch="[MemberWebsite]" sap:VirtualizedContainerService.HintSize="1035,60" sap2010:WorkflowViewState.IdRef="Matches_7" Input="[WebsiteString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;URL&quot;,&quot;OperationName&quot;:&quot;URL&quot;,&quot;OperationValue&quot;:&quot;(?:(?:https?|ftp|file):\\\/\\\/|www\\.|ftp\\.)(?:\\([-a-zA-Z0-9+&amp;@#\\\/%=~_|$?!:,.]*\\)|[-a-zA-Z0-9+&amp;@#\\\/%=~_|$?!:,.])*(?:\\([-a-zA-Z0-9+&amp;@#\\\/%=~_|$?!:,.]*\\)|[a-zA-Z0-9+&amp;@#\\\/%=~_|$])&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.])*(?:\([-a-zA-Z0-9+&amp;@#\/%=~_|$?!:,.]*\)|[a-zA-Z0-9+&amp;@#\/%=~_|$])" RegexOption="IgnoreCase, Compiled" />
+                    <WriteLine DisplayName="Log Website" sap:VirtualizedContainerService.HintSize="1035,90" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="[&quot;Current member website: &quot; + MemberWebsite]" />
+                    <ui:MultipleAssign DisplayName="Adjust Values in Data Table" sap:VirtualizedContainerService.HintSize="1035,163" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
                       <ui:MultipleAssign.AssignOperations>
                         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
@@ -410,7 +388,7 @@
                 </ActivityAction>
               </ui:ForEachRow.Body>
             </ui:ForEachRow>
-            <uix:NGoToUrl ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="1085,83" sap2010:WorkflowViewState.IdRef="NGoToUrl_3" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Timeout="{x:Null}" Url="https://members.iedconline.org/Members2020/IEDCCore/Contacts/Directory.aspx" Version="V3" />
+            <uix:NGoToUrl DisplayName="Return to Directory" sap:VirtualizedContainerService.HintSize="1131,82" sap2010:WorkflowViewState.IdRef="NGoToUrl_3" Url="https://members.iedconline.org/Members2020/IEDCCore/Contacts/Directory.aspx" Version="V3" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -424,42 +402,42 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:RemoveDataColumn Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="Name Url" DataTable="[in_dt_Members]" DisplayName="Remove Data Column" sap:VirtualizedContainerService.HintSize="1181,189" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_1" />
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1181,1822" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
+    <ui:RemoveDataColumn Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="Name Url" DataTable="[in_dt_Members]" DisplayName="Remove URL Column" sap:VirtualizedContainerService.HintSize="1227,186" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_1" />
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1227,52" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="668,1735" sap2010:WorkflowViewState.IdRef="Sequence_19">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="668,1720" sap2010:WorkflowViewState.IdRef="Sequence_19">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:FileExistsX DisplayName="File Exists" Exists="[FileExists]" sap:VirtualizedContainerService.HintSize="606,135" sap2010:WorkflowViewState.IdRef="FileExistsX_1" Path="MemberContactInfo.xlsx" />
-            <If Condition="[FileExists]" sap:VirtualizedContainerService.HintSize="606,1449" sap2010:WorkflowViewState.IdRef="If_2">
+            <ui:FileExistsX DisplayName="Check if we need to append or create a new file" Exists="[FileExists]" sap:VirtualizedContainerService.HintSize="606,133" sap2010:WorkflowViewState.IdRef="FileExistsX_1" Path="MemberContactInfo.xlsx" />
+            <If Condition="[FileExists]" sap:VirtualizedContainerService.HintSize="606,1436" sap2010:WorkflowViewState.IdRef="If_2">
               <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="572,633" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                <Sequence sap:VirtualizedContainerService.HintSize="572,627" sap2010:WorkflowViewState.IdRef="Sequence_25">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ueab:ExcelApplicationCard ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" EditPassword="{x:Null}" sap:VirtualizedContainerService.HintSize="530,545" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" Password="{x:Null}" ResizeWindow="None" TemplatePath="{x:Null}" WorkbookPath="MemberContactInfo.xlsx">
+                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="530,539" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="MemberContactInfo.xlsx">
                     <ueab:ExcelApplicationCard.Body>
                       <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Output" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,272" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,270" sap2010:WorkflowViewState.IdRef="Sequence_18">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ueab:WriteRangeX Append="True" Destination="[Output.Sheet(&quot;Sheet1&quot;)]" DisplayName="Write DataTable to Excel" ExcludeHeaders="True" sap:VirtualizedContainerService.HintSize="434,161" sap2010:WorkflowViewState.IdRef="WriteRangeX_1" IgnoreEmptySource="False" Source="[in_dt_Members]" />
+                          <ueab:WriteRangeX Append="True" Destination="[Output.Sheet(&quot;Sheet1&quot;)]" DisplayName="Write DataTable to Excel" ExcludeHeaders="True" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteRangeX_1" IgnoreEmptySource="False" Source="[in_dt_Members]" />
                         </Sequence>
                       </ActivityAction>
                     </ueab:ExcelApplicationCard.Body>
@@ -467,25 +445,25 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence sap:VirtualizedContainerService.HintSize="572,633" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                <Sequence sap:VirtualizedContainerService.HintSize="572,627" sap2010:WorkflowViewState.IdRef="Sequence_26">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ueab:ExcelApplicationCard ReadFormatting="{x:Null}" DisplayName="Use Excel File" EditPassword="{x:Null}" sap:VirtualizedContainerService.HintSize="530,545" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" Password="{x:Null}" ResizeWindow="None" TemplatePath="{x:Null}" WorkbookPath="MemberContactInfo.xlsx">
+                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="530,539" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" ResizeWindow="None" WorkbookPath="MemberContactInfo.xlsx">
                     <ueab:ExcelApplicationCard.Body>
                       <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Output" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,272" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,270" sap2010:WorkflowViewState.IdRef="Sequence_27">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ueab:WriteRangeX Destination="[Output.Sheet(&quot;Sheet1&quot;)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="434,161" sap2010:WorkflowViewState.IdRef="WriteRangeX_2" IgnoreEmptySource="False" Source="[in_dt_Members]" />
+                          <ueab:WriteRangeX Destination="[Output.Sheet(&quot;Sheet1&quot;)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteRangeX_2" IgnoreEmptySource="False" Source="[in_dt_Members]" />
                         </Sequence>
                       </ActivityAction>
                     </ueab:ExcelApplicationCard.Body>
@@ -496,6 +474,12 @@
           </Sequence>
         </ActivityAction>
       </ueab:ExcelProcessScopeX.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ueab:ExcelProcessScopeX>
   </Sequence>
 </Activity>
